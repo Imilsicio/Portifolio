@@ -16,7 +16,7 @@ export default function Home() {
               Ola Eu sou <br /> <span className="text-accent">Imilsicio Monteiro </span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Estudante de Informatica pela UEM e Fotografo de Eventos
+              Estudante de Informatica Na UEM e Fotografo de Eventos
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
