@@ -83,7 +83,7 @@ const education = {
       duration: "2020 - Present",
     },
     {
-      institution: "Instituto Politecnico de Empreendedorismo e Tecnologia",
+      institution: "IPET",
       degree: "Informatica",
       duration: "2017 - 2019",
     },
@@ -170,7 +170,7 @@ const resume = () => {
                           <div className="flex items-center gap-3">
                             {/**dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p>{item.company}</p>
+                            <p className="text-white/60">{item.company}</p>
                           </div>
                         </li>
                       )
@@ -194,7 +194,7 @@ const resume = () => {
                           <div className="flex items-center gap-3">
                             {/**dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p>{item.institution}</p>
+                            <p className="text-white/60">{item.institution}</p>
                           </div>
                         </li>
                       )
